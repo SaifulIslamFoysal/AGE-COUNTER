@@ -29,9 +29,11 @@ else{
         "month" : "months"} ${days} ${days === 1 ? "day" : "days"} old.`;
     }
     else if (years === 1) {
-        result.innerText = `You are ${years} year ${months} ${months === 1 ? "month" : "months"} ${days} ${days === 1 ? "day" : "days"} old.`;
+        result.innerText = `You are ${years} year ${months} ${months === 1 ?
+        "month" : "months"} ${days} ${days === 1 ? "day" : "days"} old.`;
     } else {
-        result.innerText = `You are ${years} years ${months} ${months === 1 ? "month" : "months"} ${days} ${days === 1 ? "day" : "days"} old.`;
+        result.innerText = `You are ${years} years ${months} ${months === 1 ?
+        "month" : "months"} ${days} ${days === 1 ? "day" : "days"} old.`;
     }
 }
 };
